@@ -1,10 +1,18 @@
 ! -----------------------------------------------------------------------------------
 ! Title: YJNews_フィルター
-!
+! Version: 2024.0512.01
 ! Homepage: https://github.com/Spiegel2226/YJNews_filter
 ! Last Updated: 05/12/2024
 ! -----------------------------------------------------------------------------------
 
+! 制作者が個人使用するために作成および公開したフィルターになります。
+! そのため何らかの不具合や問題が発生する可能性がある為、ご利用は全て自己責任でお願いします。
+! 詳細はGitHubの当フィルター上にあるREADME.mdの記述内容を御覧ください。
+
+! このフィルターを作成する際にあたり、下記のサイトを参考にして作成しております。
+! ・AdGuardかわいいフィルター（ https://kawaii.flier.jp/ ）
+! かわいいフィルターの制作者killtril様には、フィルター公開に関しての質問等に答えていただき
+! この場にて御礼申し上げます。
 
 
 ! -----------------------------------------------------------------------------------
@@ -313,6 +321,9 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-kokuhaku"]
 i 毎日キレイ
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-maikirei"])
 
+! Medical DOC
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-medicald"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -525,6 +536,10 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-shinchan"]
 ! アニメージュ＋（記事タイトルや記事に未視聴の番組の内容やネタバレ等が含まれる場合があるから）
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-animage"])
 
+! アニメ！アニメ！
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-anmanmv"])
+
+
 
 ! -----------------------------------------------------------------------------------
 ! スポーツ系
@@ -637,6 +652,9 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-goethe"])
 ! バスケットボール2for1
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-bballntfo"])
 
+! SPOTV news
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-spotvnews"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -699,6 +717,9 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-piaeigat"]
 
 ! webマガジン mi-mollet
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-mimollet"])
+
+! MORE
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-dmore"])
 
 
 

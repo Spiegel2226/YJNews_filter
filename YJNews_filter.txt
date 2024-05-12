@@ -132,6 +132,12 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-jij_afp"])
 ! Bloomberg
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-bloom_st"])
 
+! 海外ドラマNAVI（海外ドラマなので芸能に分類しようと思ったが、海外のドラマ情報なのでこちらに分類）
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-dramanavi"])
+
+! CNN.co.jp
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-cnn"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -180,6 +186,18 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-edua"])
 ! 日刊自動車新聞
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-netdenjd"])
 
+! ラジトピ ラジオ関西トピック
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-raditopi"])
+
+! 週刊大阪日日新聞
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-osknichi"])
+
+! テレ東スポーツ
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tvtokyosv"])
+
+! TOKYO FM+
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tokyofm"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -194,6 +212,9 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-rankingoo"
 
 ! gooランキング
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-granking"])
+
+! LASISA
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-lasisa"])
 
 
 
@@ -272,6 +293,26 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-jct"])
 ! anna（アンナ）
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-anna"])
 
+! All About
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-nallabout"])
+! あるじゃん（All About マネー）
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-argent"])
+
+! オンネラ
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-onnela"])
+
+! Web eclat
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-eclat"])
+
+! @BAILA
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-baila"])
+
+! コクハク
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-kokuhaku"])
+
+i 毎日キレイ
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-maikirei"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -310,9 +351,6 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-bengocom"]
 ! 選挙ドットコム
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-senkyocom"])
 
-! あるじゃん（All About マネー）
-yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-argent"])
-
 ! saita
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-saita"])
 
@@ -336,9 +374,6 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-figaro"])
 
 ! Pen Online
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-penonline"])
-
-i 毎日キレイ
-yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-maikirei"])
 
 ! CoinDesk Japan
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-coindesk"])
@@ -447,6 +482,27 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tartbeat"]
 
 ! ウレぴあ総研
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-urepia"])
+
+! 25ans（ヴァンサンカン）
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-vingtcinq"])
+
+! OCEANS
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-oceans"])
+
+! あたらしい経済
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-neweco"])
+
+! おとなの週末
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-matomeshi"])
+
+! LOG OITA
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-logoita"])
+
+! クロワッサンオンライン
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-crssntv"])
+
+! PHILE WEB
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-phileweb"])
 
 
 
@@ -572,6 +628,15 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-basket"])
 ! tennis365.net
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tennisnet"])
 
+! ゴング格闘技
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-gkakutogi"])
+
+! GOETHE
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-goethe"])
+
+! バスケットボール2for1
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-bballntfo"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -617,6 +682,24 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-natalien"]
 ! ciater[シアター]
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-viviane"])
 
+! WWSチャンネル
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-wws"])
+
+! SPICE
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-spice"])
+
+! TV LIFE web
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tvlife"])
+
+! WWDJAPAN.com
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-wwdjapan"])
+
+! ぴあ
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-piaeigat"])
+
+! webマガジン mi-mollet
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-mimollet"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -654,6 +737,15 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-gqjapan"])
 
 ! motorsport.com 日本版
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-msportcom"])
+
+! AUTOCAR JAPAN
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-autocar"])
+
+! Webikeプラス
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-wbikeplus"])
+
+! VAGUE
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-vague"])
 
 
 

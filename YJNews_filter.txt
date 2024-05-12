@@ -2,7 +2,7 @@
 ! Title: YJNews_フィルター
 !
 ! Homepage: https://github.com/Spiegel2226/YJNews_filter
-! Last Updated: 05/09/2024
+! Last Updated: 05/12/2024
 ! -----------------------------------------------------------------------------------
 
 

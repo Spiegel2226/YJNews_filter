@@ -1,6 +1,6 @@
 ! -----------------------------------------------------------------------------------
 ! Title: YJNews_フィルター
-! Version: 2024.0515.00
+! Version: 2024.0515.01
 ! Homepage: https://github.com/Spiegel2226/YJNews_filter
 ! Last Updated: 05/15/2024
 ! -----------------------------------------------------------------------------------
@@ -914,9 +914,11 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-imptrw"])
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-techinq"])
 
 ! 企画：Yahoo!検索
-yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[ href*="search.yahoo.co.jp/search?p="])
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[href*="search.yahoo.co.jp/search?p="])
 
+! 上記の『企画：Yahoo!検索』のルールに記述ミスがあったので修正した事で、けんさくいずの記事も消えると思われるので、こちらのルールをコメントアウト
+! 消えない場合は再度有効化の為このままコメントとして残す
 ! Yahoo!検索（けんさくいずの記事）
-yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[href*="ytop_starge_kquiz"])
+! yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[href*="ytop_starge_kquiz"])
 
 

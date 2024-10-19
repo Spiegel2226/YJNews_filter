@@ -1,8 +1,8 @@
 ! -----------------------------------------------------------------------------------
 ! Title: YJNews_フィルター
-! Version: 2024.0515.02
+! Version: 2024.1019.00
 ! Homepage: https://github.com/Spiegel2226/YJNews_filter
-! Last Updated: 05/15/2024
+! Last Updated: 10/19/2024
 ! -----------------------------------------------------------------------------------
 
 ! 制作者が個人使用するために作成および公開したフィルターになります。
@@ -379,6 +379,18 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-ascii"])
 ! マネーの達人
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-manetatsun"])
 
+! VITUP
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-vitup"])
+
+! BUSINESS INSIDER JAPAN
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-binsiderl"])
+
+! 日本ファクトチェックセンター
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-jfactc"])
+
+! TOKYO HEADLINE WEB
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-theadline"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -570,6 +582,15 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-seraijp"])
 ! ウォッチライフニュース
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-watchlife"])
 
+! WATCHNAVI Salon
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-watchnavi"])
+
+! HugKum
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-hugkum"])
+
+! 介護ポストセブン
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-kpseven"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -731,6 +752,18 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-minnagolf"
 ! theWORLD（ザ・ワールドweb）
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-theworldw"])
 
+! イージースポーツ
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-elevenspo"])
+
+! あとなびマガジン
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-atnavi"])
+
+! サッカーマガジンWeb
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-soccerm"])
+
+! バトル・ニュース
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-battlen"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -811,6 +844,15 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-cine"])
 ! CDJournal
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-cdj"])
 
+! TOKYO HEADLINE WEB
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-theadline"])
+
+! AV Watch
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-impavw"])
+
+! MonoMax Web
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-monomax"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -864,6 +906,12 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-rcg"])
 ! webオートバイ
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-autoby"])
 
+! Car Watch
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-impcaw"])
+
+! AUTO MESSE WEB
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-amweb"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -905,6 +953,18 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-mapplenet"
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-imptrw"])
 
 
+! -----------------------------------------------------------------------------------
+! 動物系
+! -----------------------------------------------------------------------------------
+
+! いぬのきもち WEB MAGAZINE
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-inumag"])
+
+! ねこちゃんホンポ
+! ネットにある動画やSNSの記事のみ消す
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-necohonpo"]:has-text(/再生|続出|の声|結果…|反響/))
+
+
 
 ! -----------------------------------------------------------------------------------
 ! Yahoo独自の記事やメディア系
@@ -915,5 +975,13 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-techinq"])
 
 ! 企画：Yahoo!検索
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[href*="search.yahoo.co.jp/search"])
+
+! 上記の『企画：Yahoo!検索』のルールに記述ミスがあったので修正した事で、けんさくいずの記事も消えると思われるので、こちらのルールをコメントアウト
+! 消えない場合は再度有効化の為このままコメントとして残す
+! Yahoo!検索（けんさくいずの記事）
+! yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[href*="ytop_starge_kquiz"])
+
+! LINE NEWS
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[href*="/u.lin.ee/"])
 
 

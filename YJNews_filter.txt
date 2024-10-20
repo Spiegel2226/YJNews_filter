@@ -1,8 +1,8 @@
 ! -----------------------------------------------------------------------------------
 ! Title: YJNews_フィルター
-! Version: 2024.1019.00
+! Version: 2024.1020.00
 ! Homepage: https://github.com/Spiegel2226/YJNews_filter
-! Last Updated: 10/19/2024
+! Last Updated: 10/20/2024
 ! -----------------------------------------------------------------------------------
 
 ! 制作者が個人使用するために作成および公開したフィルターになります。
@@ -391,6 +391,15 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-jfactc"])
 ! TOKYO HEADLINE WEB
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-theadline"])
 
+! T JAPA web
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tjapan"])
+
+! クックパッドニュース
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-cookpadn"])
+
+! 株探ニュース
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-stkms"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -764,6 +773,15 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-soccerm"])
 ! バトル・ニュース
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-battlen"])
 
+! マクール
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-macour"])
+
+! テニスマガジンONLINE
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tennismagv"])
+
+! センバツLIVE！
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-senbatsul"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -853,6 +871,18 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-impavw"])
 ! MonoMax Web
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-monomax"])
 
+! Bezzy
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-bezzy"])
+
+! お笑いナタリー
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-natalieo"])
+
+! 映画チャンネル
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-eigach"])
+
+! デビュー
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-devi"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -912,6 +942,18 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-impcaw"])
 ! AUTO MESSE WEB
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-amweb"])
 
+! AUTO BILD JAPAN Web
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-autobild"])
+
+! レスポンス
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-rps"])
+
+! TopNews
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-fliv"])
+
+! Webモーターマガジン
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-mmagazine"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -933,6 +975,9 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-spaia"])
 ! netkiba
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-kiba"])
 
+! 競馬ラボ
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-keibalab"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -941,6 +986,8 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-kiba"])
 
 ! グルメWatch
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-impgrw"])
+
+
 
 ! -----------------------------------------------------------------------------------
 ! 旅行系
@@ -951,6 +998,10 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-mapplenet"
 
 ! トラベルWatch
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-imptrw"])
+
+! 日刊にいがたWEBタウン情報
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-tjniigata"])
+
 
 
 ! -----------------------------------------------------------------------------------

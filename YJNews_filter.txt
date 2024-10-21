@@ -1,8 +1,8 @@
 ! -----------------------------------------------------------------------------------
 ! Title: YJNews_フィルター
-! Version: 2024.1020.00
+! Version: 2024.1021.00
 ! Homepage: https://github.com/Spiegel2226/YJNews_filter
-! Last Updated: 10/20/2024
+! Last Updated: 10/21/2024
 ! -----------------------------------------------------------------------------------
 
 ! 制作者が個人使用するために作成および公開したフィルターになります。
@@ -400,6 +400,24 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-cookpadn"]
 ! 株探ニュース
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-stkms"])
 
+! ヨガジャーナルオンライン
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-yogajol"])
+
+! UOMO
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-webuomo"])
+
+! CanCam.jp
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-cancam"])
+
+! 会社四季報オンライン
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-shikihoz"])
+
+! ESSE-online
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-esse"])
+
+! 読みテレ～読んで楽しいテレビの話
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-yomitere"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -600,6 +618,18 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-hugkum"])
 ! 介護ポストセブン
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-kpseven"])
 
+! 47NEWS
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-yonnana"])
+
+! 帝国データバンク
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-teikokudb"])
+
+! 読売新聞（ヨミドクター）
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-yomidr"])
+
+! 神戸ジャーナル
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-kobe_journal"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -632,6 +662,10 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-gamepedia"
 
 ! コミックナタリー
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-nataliec"])
+
+! HOBBY Watch
+! 今まで表示していたが、ホビー記事が特定のホビーに偏ったモノばかりで必要性を感じないため非表示化
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-imphbw"])
 
 
 
@@ -782,6 +816,12 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tennismagv
 ! センバツLIVE！
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-senbatsul"])
 
+! MLB.jp
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-mlb"])
+
+! ゴルフネットワーク
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-golfnw"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -883,6 +923,15 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-eigach"])
 ! デビュー
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-devi"])
 
+! CINRA
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-cinranet"])
+
+! 映画ナタリー
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-nataliee"])
+
+! 映画.com
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-eiga"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -954,6 +1003,24 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-fliv"])
 ! Webモーターマガジン
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-mmagazine"])
 
+! @DIME
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-dime"])
+
+! BE-PAL.NET
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-bepal"])
+
+! ENGINE WEB
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-engine"])
+
+! 月刊自家用車WEB
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-jikayosha"])
+
+! 鉄道チャンネル
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tetsudo_ch"])
+
+! 鉄道コム
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tetsucom"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -1002,6 +1069,12 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-imptrw"])
 ! 日刊にいがたWEBタウン情報
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-tjniigata"])
 
+! チイコミ！ byちいき新聞
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-lm-chiicomi"])
+
+! Shizuoka Life
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-shizuokalife"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -1010,6 +1083,7 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-tjniiga
 
 ! いぬのきもち WEB MAGAZINE
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-inumag"])
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-inunokimoti"])
 
 ! ねこちゃんホンポ
 ! ネットにある動画やSNSの記事のみ消す
@@ -1034,5 +1108,6 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[href*="search.yahoo.co.jp/se
 
 ! LINE NEWS
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[href*="/u.lin.ee/"])
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[href*="line.me/"])
 
 

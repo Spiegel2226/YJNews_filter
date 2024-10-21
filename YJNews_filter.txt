@@ -1,6 +1,6 @@
 ! -----------------------------------------------------------------------------------
 ! Title: YJNews_フィルター
-! Version: 2024.1021.00
+! Version: 2024.1021.01
 ! Homepage: https://github.com/Spiegel2226/YJNews_filter
 ! Last Updated: 10/21/2024
 ! -----------------------------------------------------------------------------------
@@ -630,6 +630,9 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-yomidr"])
 ! 神戸ジャーナル
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-kobe_journal"])
 
+! &GP
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-andgp"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -666,6 +669,9 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-nataliec"]
 ! HOBBY Watch
 ! 今まで表示していたが、ホビー記事が特定のホビーに偏ったモノばかりで必要性を感じないため非表示化
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-imphbw"])
+
+! にじめん
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-nijimen"])
 
 
 
@@ -932,6 +938,9 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-nataliee"]
 ! 映画.com
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-eiga"])
 
+! Numero TOKYO
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-numero"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -1020,6 +1029,9 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tetsudo_ch
 
 ! 鉄道コム
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tetsucom"])
+
+! KURU KURA（くるくら）
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-parkblog"])
 
 
 

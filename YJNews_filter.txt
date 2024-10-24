@@ -1,8 +1,8 @@
 ! -----------------------------------------------------------------------------------
 ! Title: YJNews_フィルター
-! Version: 2024.1023.00
+! Version: 2024.1024.00
 ! Homepage: https://github.com/Spiegel2226/YJNews_filter
-! Last Updated: 10/23/2024
+! Last Updated: 10/24/2024
 ! -----------------------------------------------------------------------------------
 
 ! 制作者が個人使用するために作成および公開したフィルターになります。
@@ -464,6 +464,24 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-otonas"])
 ! オトナライフ
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-otonalife"])
 
+! MONOist
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-it_monoist"])
+
+! ananweb
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-ananweb"])
+
+! sorae 宇宙へのポータルサイト
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-sorae_jp"])
+
+! 美的.com
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-biteki"])
+
+! タウンニュース
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-townnews"])
+
+! コロカルニュース
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-colocal"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -746,6 +764,7 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-sph"])
 ! スポーツナビ
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-spnavido"])
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="sports_spnavi"])
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-spnaviv"])
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[href*="-spnavi"])
 ! BOATRACE（スポーツナビ）
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-spnaviow"])
@@ -884,6 +903,12 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-jsportsv"]
 ! 月間陸上競技
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-getsuriku"])
 
+! 月刊バレーボール
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-getsuv"])
+
+! バド×スピ！／バドミントン・マガジン
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-badspi"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -1000,6 +1025,9 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-numero"])
 ! MEN'S CULB
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-mensplus"])
 
+! 双葉社 THE CHANGE
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-fchange"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -1098,6 +1126,9 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-mcyclist"]
 ! octane.jp
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-octane"])
 
+! ワールドジェットスポーツマガジン
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-wjsm"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -1154,6 +1185,24 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-shizuok
 
 ! みんなの経済新聞ネットワーク
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-minkei"])
+
+! 肥後ジャーナル
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-higojournal"])
+
+! BRAVO MOUNTAIN
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-bravom"])
+
+! マカオ新聞
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-macau"])
+
+! 信濃毎日新聞デジタル
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-shinmai"])
+
+! ちばとぴ！ニュース
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-chibach"])
+
+! 旅行読売
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-ryokoyom"])
 
 
 

@@ -1,8 +1,8 @@
 ! -----------------------------------------------------------------------------------
 ! Title: YJNews_フィルター
-! Version: 2024.1024.00
+! Version: 2024.1025.00
 ! Homepage: https://github.com/Spiegel2226/YJNews_filter
-! Last Updated: 10/24/2024
+! Last Updated: 10/25/2024
 ! -----------------------------------------------------------------------------------
 
 ! 制作者が個人使用するために作成および公開したフィルターになります。
@@ -218,6 +218,15 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-joqr"])
 ! 東洋経済オンライン
 ! 過去に実際に目にした話題と掲載された記事で微妙な齟齬（ライターの記事の書き方による問題と思われる）が見られた為、メディアとして問題は無いが個人的に非表示の対処へ。
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-toyo"])
+
+! 房日新聞
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-bonichi"])
+
+! 八重山日報
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-yaeyamanp"])
+
+! GLOBE+
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-globeplus"])
 
 
 
@@ -481,6 +490,21 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-townnew
 
 ! コロカルニュース
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-colocal"])
+
+! 草の実堂
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-kusanomido"])
+
+! FASHION TECH NEWS
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-fashiontn"])
+
+! ソトラバ
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-sotolover"])
+
+! BUSINESS INSIDER JAPAN
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-binsider"])
+
+! ダ・ヴィンチWeb
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-davincin"])
 
 
 
@@ -909,6 +933,9 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-getsuv"])
 ! バド×スピ！／バドミントン・マガジン
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-badspi"])
 
+! まるスポ
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-maruspo"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -1203,6 +1230,12 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-chibach"])
 
 ! 旅行読売
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-ryokoyom"])
+
+! asatan
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl_asatan"])
+
+! Aviation Wire
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-awire"])
 
 
 

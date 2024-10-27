@@ -1,8 +1,8 @@
 ! -----------------------------------------------------------------------------------
 ! Title: YJNews_フィルター
-! Version: 2024.1025.00
+! Version: 2024.1026.00
 ! Homepage: https://github.com/Spiegel2226/YJNews_filter
-! Last Updated: 10/25/2024
+! Last Updated: 10/26/2024
 ! -----------------------------------------------------------------------------------
 
 ! 制作者が個人使用するために作成および公開したフィルターになります。
@@ -506,6 +506,15 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-binsider"]
 ! ダ・ヴィンチWeb
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-davincin"])
 
+! Domani
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-domani"])
+
+! リブタイムズ
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-libwork"])
+
+! kufura
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-kufura"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -936,6 +945,15 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-badspi"])
 ! まるスポ
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-maruspo"])
 
+! バレーボールマガジン
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-vbm"])
+
+! Tennis Classic
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tennisc"])
+
+! 4years.
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-fyears"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -1054,6 +1072,9 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-mensplus"]
 
 ! 双葉社 THE CHANGE
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-fchange"])
+
+! MOVIE WALKER PRESS
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-mvwalk"])
 
 
 
@@ -1180,6 +1201,9 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-kiba"])
 ! 競馬ラボ
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-keibalab"])
 
+! 優馬
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-umakeiba"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -1236,6 +1260,9 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl_asatan"
 
 ! Aviation Wire
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-awire"])
+
+! 日刊CJ Monmo Web（シティ情報ふくしま）
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-cjnavi"])
 
 
 

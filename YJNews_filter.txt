@@ -1,8 +1,8 @@
 ! -----------------------------------------------------------------------------------
 ! Title: YJNews_フィルター
-! Version: 2024.1026.01
+! Version: 2024.1028.00
 ! Homepage: https://github.com/Spiegel2226/YJNews_filter
-! Last Updated: 10/26/2024
+! Last Updated: 10/28/2024
 ! -----------------------------------------------------------------------------------
 
 ! 制作者が個人使用するために作成および公開したフィルターになります。
@@ -518,6 +518,12 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-kufura"])
 ! MAQUIA　ONLINE
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-maquia"])
 
+! ｓｉｔａｋｋｅ
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-sitakke"])
+
+! コクリコ
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-cocreco"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -735,6 +741,12 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-andgp"])
 
 ! ニュースイッチ
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-newswitch"])
+
+! Markmal
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-merkmal"])
+
+! EE Times Japan
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-it_eetimes"])
 
 
 
@@ -956,6 +968,9 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tennisc"])
 
 ! 4years.
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-fyears"])
+
+! VICTORY
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-victory"])
 
 
 

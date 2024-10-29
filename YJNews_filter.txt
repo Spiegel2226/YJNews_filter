@@ -1,8 +1,8 @@
 ! -----------------------------------------------------------------------------------
 ! Title: YJNews_フィルター
-! Version: 2024.1028.00
+! Version: 2024.1029.00
 ! Homepage: https://github.com/Spiegel2226/YJNews_filter
-! Last Updated: 10/28/2024
+! Last Updated: 10/29/2024
 ! -----------------------------------------------------------------------------------
 
 ! 制作者が個人使用するために作成および公開したフィルターになります。
@@ -524,6 +524,12 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-sitakke
 ! コクリコ
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-cocreco"])
 
+! 家電 Watch
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-impkdw"])
+
+! THE21オンライン
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-php_t"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -972,6 +978,12 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-fyears"])
 ! VICTORY
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-victory"])
 
+! FUNQ
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-eipub"])
+
+! NBA Rakuten
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-nrakuten"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -1294,7 +1306,7 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-inunoki
 
 ! ねこちゃんホンポ
 ! ネットにある動画やSNSの記事のみ消す
-yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-necohonpo"]:has-text(/再生|続出|の声|結果…|話題|反響/))
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-necohonpo"]:has-text(/再生|続出|の声|結果…|話題|反響|万表示/))
 
 
 

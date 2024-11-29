@@ -1,8 +1,8 @@
 ! -----------------------------------------------------------------------------------
 ! Title: YJNews_フィルター
-! Version: 2024.1117.00
+! Version: 2024.1129.00
 ! Homepage: https://github.com/Spiegel2226/YJNews_filter
-! Last Updated: 11/17/2024
+! Last Updated: 11/29/2024
 ! -----------------------------------------------------------------------------------
 
 ! 制作者が個人使用するために作成および公開したフィルターになります。
@@ -227,6 +227,13 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-yaeyamanp"
 
 ! GLOBE+
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-globeplus"])
+
+! 食品新聞
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-shokuhin"])
+
+! 朝日新聞デジタル
+! 記事の情報源に偏った内容の情報を元にした記事にしたのがあった為非表示へ
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-asahi"])
 
 
 
@@ -554,6 +561,36 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-aerakidsp"
 ! Web担当者Forum
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-webtan"])
 
+! Web LEON
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-leon"])
+
+! nippon.com
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-nipponcom"])
+
+! 日本ネット経済新聞
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-netkeizai"])
+
+! THE NIKKEI MAGAZINE
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-nikkeisty"])
+
+! オズモール
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-ozmalla"])
+
+! Casa BRUTUS.com
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-casabrutus"])
+
+! Leaf KYOTO
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-mkyotobyleaf"])
+
+! 政治山
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-seijiyama"])
+
+! こどもとIT
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-impkitw"])
+
+! FINDRES
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-finders"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -783,6 +820,12 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-sodane"
 
 ! withnews
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-withnews"])
+
+! ABCニュース
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-asahibc"])
+
+! 窓の社
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-impwfw"])
 
 
 
@@ -1023,6 +1066,12 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-osoita"
 ! ラグビーリパブリック（ラグビーマガジン）
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-rugbyrp"])
 
+! SAL
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-fsal"])
+
+! REAL SPORTS
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-realspo"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -1163,6 +1212,9 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-thrjapan"]
 ! エンタメOVO
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tvfan"])
 
+! キネマ旬報WEB
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-kinejun"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -1266,6 +1318,9 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-wjsm"])
 
 ! Nosweb.jp
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-nosweb"])
+
+! ドライバーWeb
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-driverweb"])
 
 
 
@@ -1374,6 +1429,12 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-shimint"])
 
 ! ファンファン福岡
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-fanfun"])
+
+! 伊賀タウン情報YOU
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-tjyou"])
+
+! 上越タウンジャーナル
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-joetsutj"])
 
 
 

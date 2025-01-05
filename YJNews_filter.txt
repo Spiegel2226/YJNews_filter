@@ -1,8 +1,8 @@
 ! -----------------------------------------------------------------------------------
 ! Title: YJNews_フィルター
-! Version: 2024.1129.00
+! Version: 2025.0105.00
 ! Homepage: https://github.com/Spiegel2226/YJNews_filter
-! Last Updated: 11/29/2024
+! Last Updated: 01/05/2025
 ! -----------------------------------------------------------------------------------
 
 ! 制作者が個人使用するために作成および公開したフィルターになります。
@@ -234,6 +234,10 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-shokuhin"]
 ! 朝日新聞デジタル
 ! 記事の情報源に偏った内容の情報を元にした記事にしたのがあった為非表示へ
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-asahi"])
+
+! TBSラジオ
+! 目障りな内容の記事がずっとトップページに表示されつづけていた為、非表示へ。
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-tbsradio"])
 
 
 
@@ -591,6 +595,30 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-impkitw"])
 ! FINDRES
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-finders"])
 
+! MEN’S NON-NO WEB
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-mensnonno"])
+
+! yoi
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-yoi"])
+
+! Oggi.jp
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-oggi"])
+
+! ハルメク365
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-halmek"])
+
+! TSURINEWS
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-m-tsurinews"])
+
+! 求人ボックスジャーナル
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-  tl-kyujin"])
+
+! ソトコトオンライン
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-sotokoto"])
+
+! TSURINEWS
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-lm-tsurinews"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -826,6 +854,12 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-asahibc"])
 
 ! 窓の社
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-impwfw"])
+
+! INTERNET Watch
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-impiw"])
+
+! DRONE
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-drone"])
 
 
 
@@ -1215,6 +1249,9 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tvfan"])
 ! キネマ旬報WEB
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-kinejun"])
 
+! encore
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-encore"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -1436,6 +1473,12 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-tjyou"]
 ! 上越タウンジャーナル
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-joetsutj"])
 
+! YOUよっかいち
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-you-yokkaichi"])
+
+! いいね！立川
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-tl-iinetckw"])
+
 
 
 ! -----------------------------------------------------------------------------------
@@ -1483,5 +1526,8 @@ yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[data-cl-params*="-ynewstalk"
 
 ! Y!ファイナンス
 yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[href*="finance.yahoo.co.jp/news"])
+
+! LINE VOOM
+yahoo.co.jp##li[class^="Quriosity_Quriosity"]:has(a[href*="/lin.ee"])
 
 

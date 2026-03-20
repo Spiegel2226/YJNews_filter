@@ -1,6 +1,6 @@
 ! -----------------------------------------------------------------------------------
 ! Title: YJNews_フィルター
-! Version: 2026.0320.00
+! Version: 2026.0320.01
 ! Homepage: https://github.com/Spiegel2226/YJNews_filter
 ! Last Updated: 03/20/2026
 ! -----------------------------------------------------------------------------------
@@ -271,7 +271,7 @@ yahoo.co.jp##li[class="riff-relative riff-w-full"]:has(a[data-cl-params*="-charm
 ! -----------------------------------------------------------------------------------
 
 ! Yahooのエキスパートユーザーの記事全般を消す
-yahoo.co.jp##li[class="riff-relative riff-w-full"]:has(a[data-cl-params*=";rccid:expert_"])
+yahoo.co.jp##li[class="riff-relative riff-w-full"]:has(a[data-cl-params*="rccid:expert_"])
 
 ! クラシル
 yahoo.co.jp##li[class="riff-relative riff-w-full"]:has(a[href*="kurashiru.com"])
